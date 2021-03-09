@@ -4,6 +4,10 @@ html, body {
   /* background-image: url("cool-background.png"); */
   background-image: linear-gradient(to right, #2e55b0, #ac6bf3);
   font-family: Abel, Arial, Verdana, sans-serif;
+  user-select:none;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  -webkit-touch-callout:none;
 }
 
 .center {
@@ -186,5 +190,8 @@ html, body {
   height: auto;
 }
 
-
-
+.icons {
+  padding: 4px;
+  background-color: white;
+  border-radius: 3%;
+}
